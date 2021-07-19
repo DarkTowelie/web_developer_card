@@ -1,24 +1,38 @@
 @media screen and (max-device-width:720px){
     .wrap{
-        min-width: none;
+        min-width: auto;
         width: 100%;
     }
     
     .header{
         align-items: flex-start;
-        padding: 0 15px;
-        padding-top: 25px;
+        padding: 35px 15px 0 15px;
     }
 
     .logo{
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .hiddenMenu{
         margin-top: 10px;
     }
 
-    .hiddenNavig li{
-        font-size: 40px;
+    .hamburger{
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 38px;
+    }
+
+    .hiddenNavig li, .hiddenSearch input{
+        font-size: 20px;
+    }
+
+    .hiddenSearch input{
+        width: 100px;
+    }
+
+    .hiddenSearch{
+        margin-top: 10px;
     }
 }

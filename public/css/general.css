@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: grey;
+    background-color: lightcyan;
 }
 
 .wrap{
@@ -29,6 +29,11 @@ body{
     font-family: OpenSans-Bold;
 }
 
+.mainMenu{
+    display: flex;
+    align-items: center;
+}
+
 .navbar li{
     display: inline-block;
     list-style: none;
@@ -38,27 +43,44 @@ body{
     cursor: pointer;
 }
 
-.navbar li:last-child{
-    margin-right: 0;
+.search, .hiddenSearch{
+    display: flex;
+    align-items: center;
+}
+
+.search input, .hiddenSearch input{
+    font-size: 20px;
+    width: 200px;
+    padding: 5px;
+}
+
+.search img, .hiddenSearch img{
+    padding: 8px;
+    background-color: mediumturquoise;
+    cursor: pointer;
+    border: solid 1px black
 }
 
 .hiddenMenu{
     display: none;
     margin-top: -10px;
 }
-
+.hiddenSearch{
+    padding: 3px;
+}
 .hamburger{
     width: 96px;
     height: 96px;
     margin: auto;
     background-image: url("../image/general/hamburger.png");
+    background-size: cover;
     cursor: pointer;
 }
 
 .hiddenNavig{
     visibility: hidden;
     text-align: center;
-    background-color: rgba(rgb(0, 0, 0), green, blue, alpha);
+    background-color: grey;
 }
 
 .hiddenNavig li{
@@ -66,7 +88,6 @@ body{
     padding: 10px 20px 10px 20px;
     font-size: 20px;
     font-family: OpenSans-SemiBold;
-    border: solid 1px grey;
     cursor: pointer;
 }
 

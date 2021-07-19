@@ -4,13 +4,13 @@
     }
 }
 
-@media only screen and (max-width:1140px){
+@media only screen and (max-width:1305px){
     .header{
         align-items: flex-start;
         padding-top: 43px;
     }
 
-    .navbar{
+    .navbar, .search{
         display: none;
     }
 
