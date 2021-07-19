@@ -1,7 +1,7 @@
 export default function hiddenMenu(){
     let button = document.querySelector('.hamburger');
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-        button.addEventListener('tochstart', changeVisibility);
+        button.addEventListener('touchstart', changeVisibility);
       }else{
         button.addEventListener('click', changeVisibility);
       }
