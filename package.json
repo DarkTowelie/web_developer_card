@@ -1,7 +1,6 @@
 {
   "name": "web_developer_card",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkTowelie/web_developer_card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DarkTowelie/web_developer_card/issues"
+  },
+  "homepage": "https://github.com/DarkTowelie/web_developer_card#readme",
+  "description": ""
 }
