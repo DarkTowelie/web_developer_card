@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.wrap{
+    width: 1400px;
+    min-width: 650px;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    padding: 0 115px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    font-family: OpenSans-Bold;
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: OpenSans-SemiBold;
+    cursor: pointer;
+}
+
+.navbar li:last-child{
+    margin-right: 0;
+}
+
+.hiddenMenu{
+    display: none;
+    margin-top: -10px;
+}
+
+.hamburger{
+    width: 96px;
+    height: 96px;
+    margin: auto;
+    background-image: url("../image/general/hamburger.png");
+    cursor: pointer;
+}
+
+.hiddenNavig{
+    visibility: hidden;
+    text-align: center;
+    background-color: rgba(rgb(0, 0, 0), green, blue, alpha);
+}
+
+.hiddenNavig li{
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-family: OpenSans-SemiBold;
+    border: solid 1px grey;
+    cursor: pointer;
+}
+
+.hiddenNavig li:hover{
+    background-color: dodgerblue;
+}
+
+/* ------------------------------------------------- */
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/opensans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(../fonts/opensans/OpenSans-SemiBold.ttf);
+}

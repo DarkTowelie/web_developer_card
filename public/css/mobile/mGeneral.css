@@ -1,0 +1,23 @@
+@media screen and (max-device-width:720px){
+    .wrap{
+        width: 100%;
+    }
+    
+    .header{
+        align-items: flex-start;
+        padding: 0 15px;
+        padding-top: 25px;
+    }
+
+    .logo{
+        font-size: 50px;
+    }
+
+    .hiddenMenu{
+        margin-top: 10px;
+    }
+
+    .hiddenNavig li{
+        font-size: 40px;
+    }
+}
