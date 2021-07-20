@@ -1,0 +1,37 @@
+@media screen and (max-device-width:720px){
+    .webDevelopment{
+        height: 520px;
+        padding-top: 40px;
+        background-image: url(../../image/main/mWebDevelopment.jpg);
+    }
+
+    .webDevelopment span:nth-child(1){
+        font-size: 45px;
+        font-family: OpenSans-Bold;
+        margin-bottom: 25px;
+    }
+    
+    .webDevelopment span:nth-child(2){
+        font-size: 23px;
+        font-family: OpenSans-Regular;
+    }
+
+    .webDevelopment .buttonContainer{
+        margin-bottom: 50px;
+    }
+
+    .webDevelopment .button{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .webDevelopment .button1:hover{
+        border: solid 3px white;
+        background-color: transparent;
+    }
+    
+    .webDevelopment .button2:hover{
+        background-color: rgb(0, 137, 123);
+        border: solid 3px rgb(0, 137, 123);
+    }
+}
