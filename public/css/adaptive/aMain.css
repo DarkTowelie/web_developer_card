@@ -1,5 +1,8 @@
-@media only screen and (max-width:857px) {
-    .webDevelopment .title{
-        margin-bottom: 28px;
+@media only screen and (max-width:874px) {
+    .webDevelopment{
+        padding-top: 100px;
+    }
+    .aboutUs{
+        height: 700px;
     }
 }

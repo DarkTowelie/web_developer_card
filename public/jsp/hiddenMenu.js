@@ -1,5 +1,6 @@
 export default function hiddenMenu(){
     let button = document.querySelector('.hamburger');
+    document.addEventListener('scroll', hideNavig);
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
         button.addEventListener('touchstart', changeVisibility);
       }else{
@@ -16,5 +17,10 @@ export default function hiddenMenu(){
         else{
             hiddenNavig.style.visibility = 'visible';
         }
+    }
+
+    function hideNavig(){
+        let hiddenNavig = document.querySelector('.hiddenNavig');
+            hiddenNavig.style.visibility = 'hidden';
     }
 }

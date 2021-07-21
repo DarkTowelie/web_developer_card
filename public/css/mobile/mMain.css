@@ -1,8 +1,9 @@
 @media screen and (max-device-width:720px){
+/* WEB DEVELOPMENT----------------------------------------- */
     .webDevelopment{
         height: 520px;
         padding-top: 40px;
-        background-image: url(../../image/main/mWebDevelopment.jpg);
+        background-image: url(../../image/main/WebDevelopment/mWebDevelopment.jpg);
     }
 
     .webDevelopment span:nth-child(1){
@@ -33,5 +34,39 @@
     .webDevelopment .button2:hover{
         background-color: rgb(0, 137, 123);
         border: solid 3px rgb(0, 137, 123);
+    }
+/* ABOUT US----------------------------------------------- */
+    .aboutUs{
+        padding-top: 50px;
+        height: auto;
+    }
+
+
+    .aboutUs .title span:nth-child(1){
+        font-size: 35px;
+    }
+    
+    .aboutUs .title span:nth-child(2){
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: 90px;
+    }
+
+    .aboutUs .cardContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutUs .card{
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .aboutUs .card span:nth-child(2){
+        font-size: 25px;
+    }
+    
+    .aboutUs .card span:nth-child(3){
+        font-size: 20px;
     }
 }
