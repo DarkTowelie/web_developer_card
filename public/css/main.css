@@ -4,7 +4,7 @@
     height: 655px;
     background-size: cover;
     background-position: bottom;
-    background-image: url(../image/main/WebDevelopment/WebDevelopment.jpg);
+    background-image: url(../image/main/WebDev/WebDev.jpg);
     background-color: black;
     padding-top: 185px;
 }
@@ -73,7 +73,7 @@
 .webDevelopment .arrow{
     width: 23px;
     height: 15px;
-    background-image: url(../image/main/WebDevelopment/arrow.png);
+    background-image: url(../image/main/WebDev/arrow.png);
     margin: auto;
     cursor: pointer;
 }
