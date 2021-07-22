@@ -77,7 +77,7 @@
     margin: auto;
     cursor: pointer;
 }
-/* -------------------------------------------------- */
+/* ABOUT US -------------------------------------------------- */
 .aboutUs{
     width: 100%;
     height: 655px;
@@ -150,3 +150,96 @@
     font-size: 15px;
     font-family: OpenSans-Regular;
 }
+/* OUR SERVICES-------------------------------------------------- */
+.ourServices{
+    width: 100%;
+    background-color: rgb(228, 253,249);
+    padding: 175px 115px 0 115px;
+}
+
+.ourServices span{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.ourServices .title span:nth-child(1){
+    width: 210px;
+    font-size: 30px;
+    font-family: OpenSans-Bold;
+    margin-bottom: 35px;
+}
+
+.ourServices .title span:nth-child(2){
+    width: 630px;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+    margin-bottom: 110px;
+}
+
+.ourServices .cardContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 370px 370px 370px;
+    column-gap: 30px;
+}
+
+.ourServices .card{
+    width: 370px;
+    height: 438px;
+    background-color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.ourServices .card .logo{
+    width: 56px;
+    height: 62px;
+    background-image: url(../image/main/smartphone_copy.png);
+    margin-bottom: 40px;    
+}
+
+.ourServices .card span:nth-child(2){
+    margin: 0 0 25px 0;
+    font-size: 20px;
+    font-family: OpenSans-SemiBold;
+}
+
+.ourServices .card span:nth-child(3){
+    margin: 0 0 40px 0;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+    width: 80%;
+}
+
+.ourServices .card .button{
+    width: 150px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border: solid 3px black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: OpenSans-SemiBold;
+}
+
+.ourServices .card:hover {
+    transition: all ease 1s;
+    background-color: rgb(0, 137, 123);
+    color: white;
+}
+
+.ourServices .card:hover .logo{
+    transition: background-image ease 1s;
+    background-image: url(../image/main/smartphone.png);
+}
+
+.ourServices .card:hover .button {
+    transition: border ease 1s;
+    border: solid 3px white
+}
+/* ------------------------------------------------------------- */

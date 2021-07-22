@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+span{
+    cursor: default;
+}
+
 body{
-    background-color: lightcyan;
+    background-color: grey;
 }
 
 .wrap{

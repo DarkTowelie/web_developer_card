@@ -41,7 +41,6 @@
         height: auto;
     }
 
-
     .aboutUs .title span:nth-child(1){
         font-size: 35px;
     }
@@ -68,5 +67,26 @@
     
     .aboutUs .card span:nth-child(3){
         font-size: 20px;
+    }
+/* OUR SERVICES----------------------------------------------- */
+    .ourServices{
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    .ourServices .title span:nth-child(1){
+        width: 90%;
+        font-size: 35px;
+    }
+    .ourServices .title span:nth-child(2){
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: 90px;
+    }
+
+    .ourServices .card{
+        width: 90%;
+        margin:auto;
+        margin-bottom: 30px;
     }
 }

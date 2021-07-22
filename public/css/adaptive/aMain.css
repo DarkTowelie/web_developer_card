@@ -1,3 +1,15 @@
+@media only screen and (max-width:1400px){
+    .ourServices .cardContainer{
+        grid-template-columns: 370px 370px;
+    }
+}
+
+@media only screen and (max-width:890px) {
+    .ourServices .cardContainer{
+        grid-template-columns: 370px;
+    }
+}
+
 @media only screen and (max-width:874px) {
     .webDevelopment{
         padding-top: 100px;
