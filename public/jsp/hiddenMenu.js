@@ -3,9 +3,9 @@ export default function hiddenMenu(){
     document.addEventListener('scroll', hideNavig);
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
         button.addEventListener('touchstart', changeVisibility);
-      }else{
+    }else{
         button.addEventListener('click', changeVisibility);
-      }
+    }
 
     function changeVisibility(){
     

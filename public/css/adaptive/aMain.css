@@ -2,10 +2,29 @@
     .ourServices .cardContainer{
         grid-template-columns: 370px 370px;
     }
+
+    .lastestWork .goods .cardContainer{
+        grid-template-columns: 370px 370px;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .lastestWork .buttonContainer .button{
+        height: 110px;
+        line-height: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width:890px) {
     .ourServices .cardContainer{
+        grid-template-columns: 370px;
+    }
+
+    .lastestWork .goods .cardContainer{
         grid-template-columns: 370px;
     }
 }

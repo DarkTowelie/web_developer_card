@@ -6,13 +6,13 @@
         background-image: url(../../image/main/mWebDev.jpg);
     }
 
-    .webDevelopment span:nth-child(1){
+    .webDevelopment .title span:nth-child(1){
         font-size: 45px;
         font-family: OpenSans-Bold;
         margin-bottom: 25px;
     }
     
-    .webDevelopment span:nth-child(2){
+    .webDevelopment .title span:nth-child(2){
         font-size: 23px;
         font-family: OpenSans-Regular;
     }
@@ -88,5 +88,34 @@
         width: 90%;
         margin:auto;
         margin-bottom: 30px;
+    }
+    
+/* Lastest Work------------------------------------------------------------- */
+    .lastestWork{
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    .lastestWork .buttonContainer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .lastestWork .buttonContainer .button{
+        width: 80%;
+        margin: 0 0 20px 0;
+    }
+    .lastestWork .title span:nth-child(1){
+        width: 90%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .lastestWork .title span:nth-child(2){
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: 90px;
     }
 }
