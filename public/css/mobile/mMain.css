@@ -118,4 +118,30 @@
         width: 90%;
         margin-bottom: 90px;
     }
+    /* Pricing Plan------------------------------------------------------------- */
+    .pricingPlan{
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    .pricingPlan .title span:nth-child(1){
+        width: 90%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .pricingPlan .title span:nth-child(2){
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: 90px;
+    }
+
+    .pricingPlan .cardContainer{
+        grid-template-columns: 95%;
+        column-gap: 0px
+    }
+
+    .pricingPlan .cardContainer .card{
+        width: 100%;
+    }
 }

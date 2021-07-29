@@ -1,9 +1,14 @@
 @media only screen and (max-width:1400px){
+
     .ourServices .cardContainer{
         grid-template-columns: 370px 370px;
     }
 
     .lastestWork .goods .cardContainer{
+        grid-template-columns: 370px 370px;
+    }
+
+    .pricingPlan .cardContainer{
         grid-template-columns: 370px 370px;
     }
 }
@@ -26,6 +31,14 @@
 
     .lastestWork .goods .cardContainer{
         grid-template-columns: 370px;
+    }
+
+    .pricingPlan .cardContainer{
+        grid-template-columns: 370px;
+    }
+
+    .ourServices, .lastestWork, .pricingPlan{
+        padding: 125px 15px 125px 15px;
     }
 }
 
