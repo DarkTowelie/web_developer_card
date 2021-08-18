@@ -72,5 +72,4 @@ export default function addGoodsClick(){
         buttons[2].addEventListener('click', uxDesignClick);
         buttons[3].addEventListener('click', mockupsClick);
     }
-    
 }

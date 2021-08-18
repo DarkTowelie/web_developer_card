@@ -11,6 +11,63 @@
     .pricingPlan .cardContainer{
         grid-template-columns: 370px 370px;
     }
+
+    .ourTeam{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ourTeam .slider{
+        width: 960px;
+        margin: auto;
+    }
+
+    .ourTeam .slideContainer .card,
+    .ourTeam .slideContainer .card img
+    {
+        width: 300px;
+        margin-right: 20px;
+    }
+    .ourTeam .slider .slideContainer{
+        margin-bottom: 70px;
+    }
+
+    .ourTeam .slideContainer .card{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width:1100px)
+{
+    .ourTeam .slider{
+        width: 630px;
+        margin: auto;
+    }
+
+    .ourTeam .slideContainer .card{
+        height: 340px;
+    }
+
+    .ourTeam .slideContainer .card,
+    .ourTeam .slideContainer .card img
+    {
+        width: 200px;
+        margin-right: 10px;
+    }
+
+    .ourTeam .slideContainer .buttonContainer div{
+        width: 25px;
+        height: 25px;
+        background-size: 21px;
+        border-radius: 3px;
+    }
+    .ourTeam .slideContainer .buttonContainer div:nth-child(1){
+        background-size: 11px;
+    }
+    
+    .ourTeam .slideContainer .buttonContainer{
+        width: 180px;
+    }
 }
 
 @media only screen and (max-width:980px) {
