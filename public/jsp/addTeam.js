@@ -38,11 +38,11 @@ function addCards(){
 
 export default function addTeamCards(){
     addCards();
-    let slider = document.querySelector('.slider');
     let slideContainer = document.querySelector('.slider .slideContainer');
         slideContainer.style.left = 0;
     let buttons = document.querySelectorAll('.ourTeam .sliderNavig .button');
-
+    let mobileBLeft = document.querySelector(".bLeft");
+    let mobileBRight = document.querySelector(".bRight");
     buttons[0].style.backgroundColor = 'rgb(57, 73, 171)';
     for(let i = 1; i < buttons.length; i++){
         buttons[i].style.backgroundColor = 'rgb(0, 137, 123)';
@@ -50,8 +50,7 @@ export default function addTeamCards(){
 
     let slideShift = 1200;
     window.onresize = function(event) {
-        let lWidth = getWidth();
-        
+        let lWidth = getWidth(); 
         for(let j = 0; j < buttons.length; j++){             
             buttons[j].style.backgroundColor = 'rgb(0, 137, 123)';
         }
@@ -87,16 +86,30 @@ export default function addTeamCards(){
         });
     }
 
+    let index = 0;
+    mobileBLeft.addEventListener("touchstart", function(){
+        if(index > 0)
+        {
+            index--;
+            mMoveSlides(index);
+        }
+    })
+    mobileBRight.addEventListener("touchstart", function(){
+        if(index < 8)
+        {
+            index++;
+            mMoveSlides(index);
+        }
+    })
+
     function moveSlides(i){
         let lWidth = getWidth();
-        if(lWidth > 1400)
-            slideContainer.style.left = -i * slideShift + 'px';
+        slideContainer.style.left = -i * slideShift + 'px';
+    }
 
-        if(lWidth <= 1400 && lWidth > 1100)
-            slideContainer.style.left = -i * slideShift + 'px';
-
-        if(lWidth <= 1100)
-            slideContainer.style.left = -i * slideShift + 'px';
+    function mMoveSlides(i){
+        let cardWidth = 210;
+        slideContainer.style.left = -i * cardWidth + 'px';
     }
 }
 

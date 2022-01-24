@@ -608,3 +608,40 @@
 .ourTeam .sliderNavig .button:last-child{
     margin-right: 0;
 }
+
+.ourTeam .mSlider .bLeft,
+.ourTeam .mSlider .bRight{
+    display: none;
+}
+/*BLOG--------------------------------------------*/
+.blog{
+    width: 100%;
+    padding: 125px 115px 125px 115px;
+    background-color: rgb(240, 241, 241);
+}
+
+.blog .title span{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.blog .title span:nth-child(1){
+    width: 290px;
+    font-size: 30px;
+    font-family: OpenSans-Bold;
+    margin-bottom: 35px;
+}
+
+.blog .title span:nth-child(2){
+    width: 630px;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+    margin-bottom: 125px;
+}
+
+.blog .adGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+}

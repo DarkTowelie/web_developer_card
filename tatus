@@ -1,0 +1,89 @@
+[33mcommit 624558a93e04ef3ed0e1f5f2c99f66b16e930767[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Sat Aug 21 22:21:00 2021 +0700
+
+    added background
+
+[33mcommit f74f7d11df34b878af330ea0dd333cffd670f4e7[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Thu Aug 19 00:25:18 2021 +0700
+
+    added team block, added slide (not adapted to mobile)
+
+[33mcommit 2dbe7702f970a4d153e1ba5563c6b0b32edd7d14[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Thu Jul 29 18:36:03 2021 +0700
+
+    added Pricing Plan
+
+[33mcommit bcab117bb907b789bc99447c0974de954d2f4c5a[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Sat Jul 24 01:03:43 2021 +0700
+
+    added goods
+
+[33mcommit 54550cb0691814089e5fe7a1f0152d06fb018802[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Fri Jul 23 01:03:48 2021 +0700
+
+    Added Our Services div
+
+[33mcommit 7a01267f11905bc91e34d7c88b742ae5ceea2357[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Wed Jul 21 18:11:42 2021 +0700
+
+    fixed mobile images path
+
+[33mcommit 17ee6fb5d94fd0d153900ce45b59398532070c83[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Wed Jul 21 18:10:02 2021 +0700
+
+    removed some folders
+
+[33mcommit 14f084f10781a396eb72cbff58d09cfd7883c08b[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Wed Jul 21 18:06:33 2021 +0700
+
+    shorter file path
+
+[33mcommit 05610fdf4f83d556b23e9c2f677481a1ace5ab68[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Wed Jul 21 17:52:15 2021 +0700
+
+    added About Us
+
+[33mcommit ef9a2a4a278962625bd1bfe850b1a1ad3f586175[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Wed Jul 21 00:08:42 2021 +0700
+
+    added Web Development div
+
+[33mcommit fc416fe0e90c3bcf6caebf89e26763f7b081b7a2[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Mon Jul 19 23:30:55 2021 +0700
+
+    fixed error: tochstart to touchstart
+
+[33mcommit fe7861a8fb5fc0baede4477c2a444da1259472e2[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Mon Jul 19 23:26:06 2021 +0700
+
+    added tochstart for mobile
+
+[33mcommit 152c04f269a13e89588c51b4e8d5b57dcd3c6f34[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Mon Jul 19 19:31:40 2021 +0700
+
+    header mobile version
+
+[33mcommit 1f9d08b551028df076e9a2f4f2ab586194bf5f8c[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Mon Jul 19 16:40:25 2021 +0700
+
+    added toch for mobile
+
+[33mcommit 5a14c55fe11f9580852944510e23a64491525841[m
+Author: DarkTowelie <valeriy.shestakov@inbox.ru>
+Date:   Mon Jul 19 16:17:08 2021 +0700
+
+    Created header

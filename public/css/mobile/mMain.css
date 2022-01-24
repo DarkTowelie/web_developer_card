@@ -144,4 +144,51 @@
     .pricingPlan .cardContainer .card{
         width: 100%;
     }
+    /* Our team------------------------------------------------------------- */
+    .ourTeam{
+        padding: 0;
+        padding-top: 50px;
+    }
+    
+    .ourTeam .title span:nth-child(1){
+        width: 90%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .ourTeam .title span:nth-child(2){
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: 90px;
+    }
+
+    .ourTeam .slideContainer .card{
+        margin-top: 50px;
+    }
+
+    .ourTeam .mSlider .bLeft,
+    .ourTeam .mSlider .bRight{
+        display: block;
+        height: 480px;
+        width: 40px;
+        background-color: darkgray;
+        color: white;
+        line-height: 480px;
+        text-align: center;
+    }
+
+    .ourTeam .sliderNavig{
+        display: none;
+    }
+
+    .ourTeam .slider{
+        width: 200px;
+    }
+
+    .mSlider{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 480px;
+    }
 }
