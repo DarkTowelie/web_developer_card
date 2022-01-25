@@ -644,4 +644,71 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-content: center;
+    margin-bottom: 125px;
+}
+
+.blog .adGrid .preview{
+    width: 90%;
+}
+
+.blog .adGrid .description{
+    display: flex;
+    flex-direction: column; 
+}
+
+.blog .adGrid .description .title{
+    font-family: OpenSans-SemiBold;
+    font-size: 27px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.blog .adGrid .description .title:hover{
+    color: rgb(0, 137, 123);
+    cursor: pointer;
+}
+
+.blog .adGrid .description .info{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.blog .adGrid .description .info img{
+    margin-right: 10px;
+}
+
+.blog .adGrid .description .info .date{
+    margin-right: 35px;
+}
+
+.blog .adGrid .description .info .date,
+.blog .adGrid .description .info .category
+{
+    display: flex;
+    align-items: center;
+    font-family: OpenSans-SemiBold;
+}
+
+.blog .adGrid .description .content{
+    font-family: OpenSans-Regular;
+}
+
+.blog .button{
+    border: solid 3px black;
+    width: 180px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: OpenSans-SemiBold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.blog .button:hover{
+    transition: all ease 1s;
+    background-color: rgb(0, 137, 123);
+    border-color: rgb(0, 137, 123);
+    color: white;  
 }

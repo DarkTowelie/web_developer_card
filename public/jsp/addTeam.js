@@ -87,20 +87,25 @@ export default function addTeamCards(){
     }
 
     let index = 0;
-    mobileBLeft.addEventListener("touchstart", function(){
-        if(index > 0)
-        {
-            index--;
-            mMoveSlides(index);
+    {
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+            mobileBLeft.addEventListener("touchstart", function(){
+                if(index > 0)
+                {
+                    index--;
+                    mMoveSlides(index);
+                }
+            })
+            mobileBRight.addEventListener("touchstart", function(){
+                if(index < 8)
+                {
+                    index++;
+                    mMoveSlides(index);
+                }
+            })
         }
-    })
-    mobileBRight.addEventListener("touchstart", function(){
-        if(index < 8)
-        {
-            index++;
-            mMoveSlides(index);
-        }
-    })
+    }
+    
 
     function moveSlides(i){
         let lWidth = getWidth();
