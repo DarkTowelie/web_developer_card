@@ -1,3 +1,5 @@
+import getWidth from '../jsp/general.js';
+
 function createRow(imagePath, desTitle, dateText, categoryText, contentText, index){
     let adGrid = document.querySelector(".adGrid");
     let preview = document.createElement("img");
@@ -87,13 +89,3 @@ export default function addAdGrid(){
         "Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...", 
         index++); 
 }
-
-function getWidth() {
-    return Math.max(
-      document.body.scrollWidth,
-      document.documentElement.scrollWidth,
-      document.body.offsetWidth,
-      document.documentElement.offsetWidth,
-      document.documentElement.clientWidth
-    );
-  }
