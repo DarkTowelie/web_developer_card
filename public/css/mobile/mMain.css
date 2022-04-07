@@ -171,7 +171,7 @@
         display: block;
         height: 480px;
         width: 40px;
-        background-color: darkgray;
+        background-color: rgba(100, 100, 100, 0.1);
         color: white;
         line-height: 480px;
         text-align: center;
@@ -190,5 +190,23 @@
         justify-content: space-around;
         align-items: center;
         height: 480px;
+        background-color: rgba(100, 100, 100, 0.1);
+    }
+
+    /* Blog------------------------------------------------------------- */
+    .blog{
+        padding: 50px 0 50px 0;
+    }
+
+    .blog .adGrid{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0;
+    }
+
+    .blog .title span:nth-child(2){
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: 90px;
     }
 }

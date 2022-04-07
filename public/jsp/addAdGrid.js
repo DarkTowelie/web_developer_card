@@ -45,16 +45,23 @@ function createRow(imagePath, desTitle, dateText, categoryText, contentText, ind
     content.innerHTML = contentText;
     description.append(content);
 
-    if(index % 2 == 0){
-        console.log(0);
-        adGrid.append(preview);
-        adGrid.append(description);
+    if(getWidth() >= 720)
+    {
+        if(index % 2 == 0){
+            adGrid.append(preview);
+            adGrid.append(description);
+        }
+        else{
+            adGrid.append(description);
+            adGrid.append(preview);
+        }
     }
-    else{
-        console.log(1);
+    else
+    {
         adGrid.append(description);
         adGrid.append(preview);
     }
+    
 }
 
 export default function addAdGrid(){
@@ -78,8 +85,15 @@ export default function addAdGrid(){
         "23.10.2022", 
         "Development", 
         "Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...", 
-        index++);
-        
-    
-    
+        index++); 
 }
+
+function getWidth() {
+    return Math.max(
+      document.body.scrollWidth,
+      document.documentElement.scrollWidth,
+      document.body.offsetWidth,
+      document.documentElement.offsetWidth,
+      document.documentElement.clientWidth
+    );
+  }
