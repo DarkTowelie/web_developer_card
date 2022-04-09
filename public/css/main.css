@@ -740,4 +740,116 @@
     border-color: rgb(0, 137, 123);
     color: white;  
 }
+/*Contact us---------------------------------------------------*/
+.contactUs{
+    width: 100%;
+    padding: 125px 115px 125px 115px;
+    background-color: black;
+    background-image: url(../image/main/contactUs.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.contactUs .title span{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.contactUs .title span:nth-child(1){
+    width: 290px;
+    font-size: 30px;
+    font-family: OpenSans-Bold;
+    margin-bottom: 35px;
+}
+
+.contactUs .title span:nth-child(2){
+    width: 630px;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+    margin-bottom: 125px;
+}
+
+.contactUs .contactsInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.contactUs .contactsInfo .info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUs .contactsInfo .icon{
+    width: 105px;
+    height: 105px;
+    margin-bottom: 45px;
+    border-radius: 50%;
+    background-color: rgb(57, 73, 171);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.contactUs .contactsInfo .info:nth-child(1) .icon{
+    background-image: url(../image/contacts/position.png);
+}
+
+.contactUs .contactsInfo .info:nth-child(2) .icon{
+    background-image: url(../image/contacts/phone.png);
+}
+
+.contactUs .contactsInfo .info:nth-child(3) .icon{
+    background-image: url(../image/contacts/mail.png);
+}
+
+.contacts form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.9fr 0.2fr 0.9fr 1fr;
+    grid-template-rows: repeat(4, 85px);
+    grid-row-gap: 30px;
+}
+
+input[type=email], input[type=text], textarea{
+    padding: 20px;
+}
+
+input, textarea{
+    border-radius: 10px;
+    font-family: OpenSans-SemiBold;
+    font-size: 20px;
+}
+
+input[type=text]{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+input[type=email]{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+textarea{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+input[type=submit]{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color: rgb(0, 137, 123);
+    color: white;
+    cursor: pointer;
+}
 /*---------------------------------------------------*/
